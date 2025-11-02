@@ -1,19 +1,150 @@
+<!-- Encabezado -->
 <section class="space-y-6">
-  <div class="bg-white border border-slate-200 rounded-xl shadow-sm p-5">
-    <h2 class="text-xl font-semibold text-slate-800">Menú principal</h2>
-    <p class="text-slate-600 mt-1">Selecciona un flujo para prototipar:</p>
+  <header class="relative mb-4 rounded-2xl border border-[#e8eef5] bg-white p-8 shadow-sm">
+    <div class="absolute inset-x-0 top-0 h-1 rounded-t-2xl bg-gradient-to-r from-brand1 to-brand2"></div>
+    <h1 class="text-3xl font-bold text-brand1">Índice de Flujos</h1>
+    <p class="mt-2 text-slate-600">Accesos rápidos a cada flujo / módulo.</p>
+  </header>
 
-    <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      <a routerLink="/flujo-5"
-         class="block rounded-xl border border-emerald-200 hover:border-emerald-400 hover:shadow transition p-4">
-        <div class="flex items-center justify-between">
-          <h3 class="font-medium text-slate-800">Flujo 5</h3>
-          <span class="px-2 py-0.5 text-xs rounded-full bg-emerald-100 text-emerald-700 border border-emerald-300">
-            Demo
-          </span>
-        </div>
-        <p class="text-slate-600 mt-2 text-sm">Bandeja + detalle con datos en memoria.</p>
+
+  <!-- ====================== Flujo 1 ====================== -->
+  <section class="mb-12">
+    <h2 class="mb-4 text-xl font-semibold text-brand2">Flujo 1</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-blue-500 to-blue-700">📄</div>
+        <h3 class="mb-1 text-lg font-semibold">Gestión de Instrumentos</h3>
+        <p class="mb-4 text-sm text-slate-600">Alta y administración de instrumentos de inversión.</p>
+        <a href="flujo-1/index.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====================== Flujo 2 ====================== -->
+  <section class="mb-12">
+    <h2 class="mb-4 text-xl font-semibold text-brand2">Flujo 2</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-cyan-500 to-sky-700">📊</div>
+        <h3 class="mb-1 text-lg font-semibold">Llamados y Distribución</h3>
+        <p class="mb-4 text-sm text-slate-600">Gestión de llamados de capital y distribución.</p>
+        <a href="prototipos/index.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====================== Flujo 3 ====================== -->
+  <section class="mb-12">
+    <h2 class="mb-4 text-xl font-semibold text-brand2">Flujo 3 - Administración de recursos financieros de corto plazo</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-emerald-500 to-green-700">💼</div>
+        <h3 class="mb-1 text-lg font-semibold">Depósito a Plazo y Depósitos BCRP</h3>
+        <p class="mb-4 text-sm text-slate-600">Depósito a Plazo y Depósitos BCRP</p>
+        <a href="prototipos-flujo-3/index-3.5.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-indigo-500 to-indigo-700">💱</div>
+        <h3 class="mb-1 text-lg font-semibold">Operaciones Cambiarias</h3>
+        <p class="mb-4 text-sm text-slate-600">Compra y venta de divisas vinculadas al flujo 3.</p>
+        <a href="prototipos-flujo-3/index-ope-camb.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-teal-500 to-cyan-700">📈</div>
+        <h3 class="mb-1 text-lg font-semibold">Cuenta Remunerada</h3>
+        <p class="mb-4 text-sm text-slate-600">Flujo de cuenta remunerada.</p>
+        <a href="prototipos-flujo-3/index-cta-remunerada.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-emerald-500 to-green-700">💼</div>
+        <h3 class="mb-1 text-lg font-semibold">Certificado BCRP</h3>
+        <p class="mb-4 text-sm text-slate-600">Certificado BCRP.</p>
+        <a href="prototipos-flujo-3/index-certificado.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-emerald-500 to-green-700">💼</div>
+        <h3 class="mb-1 text-lg font-semibold">Instrumento de Corto Plazo</h3>
+        <p class="mb-4 text-sm text-slate-600">Instrumento de Corto Plazo.</p>
+        <a href="prototipos-flujo-3/index-instrumento-corto.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-emerald-500 to-green-700">💼</div>
+        <h3 class="mb-1 text-lg font-semibold">Papeles Comerciales</h3>
+        <p class="mb-4 text-sm text-slate-600">Papeles Comerciales.</p>
+        <a href="prototipos-flujo-3/index-papel-comercial.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====================== Flujo 4 ====================== -->
+  <section class="mb-12">
+    <h2 class="mb-4 text-xl font-semibold text-brand2">Flujo 4 - Gestión de pagos diversos</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-emerald-500 to-green-700">💼</div>
+        <h3 class="mb-1 text-lg font-semibold">Ejecutar operaciones de transferencias y pagos</h3>
+        <p class="mb-4 text-sm text-slate-600">Ejecutar operaciones de transferencias y pago</p>
+        <a href="flujo-4/operaciones-transf-pagos.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-indigo-500 to-indigo-700">💱</div>
+        <h3 class="mb-1 text-lg font-semibold">Procesos de contabilización</h3>
+        <p class="mb-4 text-sm text-slate-600">Procesos de contabilización.</p>
+        <a href="flujo-4/procesos-contabilidad.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+    </div>
+  </section>
+
+  
+  <!-- ====================== Demo Angular (Flujo 5) ====================== -->
+  <section class="mb-12">
+    <h2 class="mb-4 text-xl font-semibold text-slate-800">Demo Angular</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <a
+        routerLink="/flujo-5"
+        class="block bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition"
+      >
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-emerald-500 to-green-700">⚙️</div>
+        <h3 class="mb-1 text-lg font-semibold text-slate-800">Flujo 5 (Angular)</h3>
+        <p class="mb-4 text-sm text-slate-600">Bandeja + detalle con datos en memoria.</p>
+        <span class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</span>
       </a>
     </div>
-  </div>
+  </section>
+
+  <!-- ====================== Expediente ====================== -->
+  <section class="mb-12">
+    <h2 class="mb-4 text-xl font-semibold text-brand2">Expediente</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-purple-500 to-fuchsia-600">🗂️</div>
+        <h3 class="mb-1 text-lg font-semibold">Expediente Digital</h3>
+        <p class="mb-4 text-sm text-slate-600">Gestión integral de documentos sustentatorios.</p>
+        <a href="prototipos-expediente/listado-expediente.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====================== Otros ====================== -->
+  <section class="mb-4">
+    <h2 class="mb-4 text-xl font-semibold text-brand2">Otros</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <article class="bg-white rounded-xl border border-[#e8eef5] p-6 shadow-[0_8px_24px_rgba(15,23,42,.08)] hover:shadow-lg transition">
+        <div class="mb-3 flex h-12 w-12 items-center justify-center rounded-lg text-xl text-white bg-gradient-to-br from-amber-500 to-orange-600">📌</div>
+        <h3 class="mb-1 text-lg font-semibold">Misceláneos</h3>
+        <p class="mb-4 text-sm text-slate-600">Otras vistas, reportes y utilidades complementarias.</p>
+        <a href="otros.html" class="inline-block rounded-lg px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-brand1 to-brand2">Abrir</a>
+      </article>
+    </div>
+  </section>
+
+  <footer class="mt-6 pb-6 text-center text-xs text-slate-500">
+   <!-- © {{ year }} — Flujos-->
+  </footer>
 </section>
