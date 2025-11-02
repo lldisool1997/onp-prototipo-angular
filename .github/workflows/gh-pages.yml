@@ -34,16 +34,13 @@ jobs:
         run: npm run build -- --configuration production --base-href /onp-prototipo-angular/
 
       - name: Add 404.html for SPA fallback
-        shell: bash
         run: |
-          APP_DIR=$(ls -d dist/*/browser | head -n 1)
-          echo "App dir: $APP_DIR"
-          cp "$APP_DIR/index.html" "$APP_DIR/404.html"
+          cp dist/onp-prototipos/browser/index.html dist/onp-prototipos/browser/404.html
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/**/
+          path: dist/onp-prototipos/browser
 
   deploy:
     needs: build
