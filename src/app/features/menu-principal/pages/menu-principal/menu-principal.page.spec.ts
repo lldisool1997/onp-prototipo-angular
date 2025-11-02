@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MenuPrincipalPage } from './menu-principal.page';
 
-describe('MenuPrincipalPageComponent', () => {
+describe('MenuPrincipalPage', () => {
   let component: MenuPrincipalPage;
   let fixture: ComponentFixture<MenuPrincipalPage>;
 
